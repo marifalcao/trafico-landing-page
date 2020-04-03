@@ -1,0 +1,55 @@
+header {
+  background: $primary-color;
+}
+
+.header {
+  @extend .container;
+  background: url('../img/Top.png') no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+.header {
+  h1 {
+    color: white;
+    font-family: $dm-display;
+    font-size: 6.25rem;
+    line-height: 6rem;
+  }
+  button {
+    margin-top: 60px;
+  }
+}
+
+.nav {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.nav-menu {
+  .nav-menu-item {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    &:not(:last-child) {
+      padding: 0 90px 0 0;
+    }
+    a {
+      color: white;
+    }
+  }
+}
+
+.nav-menu.nav-menu-desktop {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-menu.nav-menu-mobile {
+  display: none;
+}
