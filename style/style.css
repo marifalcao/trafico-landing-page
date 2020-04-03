@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik:wght@300;400;500;700&display=swap");
+body {
+  background: #FEF8F5;
+  min-height: 100vh;
+  color: #402B2B;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.1rem "Rubik", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container, .header {
+  padding: 30px calc((100% - 1170px) / 2);
+}
+
+.botao-primario {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+  display: inline-block;
+  background: #EE4D47;
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  -wekkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.botao-icone svg {
+  margin-left: 10px;
+}
+
+header {
+  background: #EE4D47;
+}
+
+.header {
+  background: url("../img/Top.png") no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+.header h1 {
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-size: 6.25rem;
+  line-height: 6rem;
+}
+.header button {
+  margin-top: 60px;
+}
+
+.nav {
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.nav-menu .nav-menu-item {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.nav-menu .nav-menu-item:not(:last-child) {
+  padding: 0 90px 0 0;
+}
+.nav-menu .nav-menu-item a {
+  color: white;
+}
+
+.nav-menu.nav-menu-desktop {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-menu.nav-menu-mobile {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
